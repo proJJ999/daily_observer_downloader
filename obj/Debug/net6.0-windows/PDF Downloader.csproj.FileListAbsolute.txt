@@ -1,0 +1,24 @@
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\PDF Downloader.exe
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\PDF Downloader.deps.json
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\PDF Downloader.runtimeconfig.json
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\PDF Downloader.dll
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\ref\PDF Downloader.dll
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\PDF Downloader.pdb
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\obj\Debug\net6.0-windows\PDF Downloader.csproj.AssemblyReference.cache
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\obj\Debug\net6.0-windows\PDF Downloader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\obj\Debug\net6.0-windows\PDF Downloader.AssemblyInfoInputs.cache
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\obj\Debug\net6.0-windows\PDF Downloader.AssemblyInfo.cs
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\obj\Debug\net6.0-windows\PDF Downloader.csproj.CoreCompileInputs.cache
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\obj\Debug\net6.0-windows\PDF Downloader.csproj.CopyComplete
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\obj\Debug\net6.0-windows\PDF Downloader.dll
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\obj\Debug\net6.0-windows\ref\PDF Downloader.dll
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\obj\Debug\net6.0-windows\PDF Downloader.pdb
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\obj\Debug\net6.0-windows\PDF Downloader.genruntimeconfig.cache
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\selenium-manager\linux\selenium-manager
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\selenium-manager\macos\selenium-manager
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\selenium-manager\windows\selenium-manager.exe
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\WebDriver.dll
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\Spire.Pdf.dll
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\JJ\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\Desktop\Temp - Notes\pdf_download\PDF Downloader\bin\Debug\net6.0-windows\itextsharp.dll
