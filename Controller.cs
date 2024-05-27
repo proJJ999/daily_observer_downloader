@@ -15,13 +15,13 @@ namespace DailyObserverDownloader
         {
             DownloadArguments arguments = ArgumentChecker.CheckArguments(args);
 
-            var releases = ReleaseGetter.GetReleases(arguments.releasesFile);
+            var releases = ReleaseGetter.GetReleases(arguments.ReleasesFile);
             using DownloadGetter downloadGetter = new DownloadGetter();
             foreach (var release in releases)
             {
                 var releaseLink = ReleaseLinkCalculator.CalcReleaseLink(release);
                 var downloads = downloadGetter.GetDownloads(releaseLink);
-                string folder = FolderCalculator.CalculateFolder(arguments.downloadPath, release);
+                string folder = FolderCalculator.CalculateFolder(arguments.DownloadPath, release);
                 Directory.CreateDirectory(folder);
                 List<Thread> downloadThreads = new List<Thread>();
                 foreach (var download in downloads)
@@ -35,7 +35,7 @@ namespace DailyObserverDownloader
                     thread.Join();
                 }
                 PageMerger.MergeRelease(folder);
-                if (arguments.deleteSinglePagesFlag)
+                if (arguments.DeleteSinglePagesFlag)
                 {
                     PageDeleter.DeleteSinglePages(folder);
                 }

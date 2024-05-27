@@ -11,21 +11,35 @@ namespace DailyObserverDownloader
     {
         public static DownloadArguments CheckArguments(string[] args)
         {
-            string releasesFile = "C:\\daily_observer\\releases.txt";
-            string downloadPath = "C:\\daily_observer\\PDFs";
-            bool deleteSinglePagesFlag = true;
-
-            if (args.Length == 3)
+            if(args.Length % 2 != 0)
             {
-                releasesFile = args[0];
-                downloadPath = args[1];
-                deleteSinglePagesFlag = InterpretFlag(args[2]);
+                throw new Exception("Parameters are false.");
             }
 
             DownloadArguments downloadArguments = new DownloadArguments();
-            downloadArguments.releasesFile = releasesFile;
-            downloadArguments.downloadPath = downloadPath;
-            downloadArguments.deleteSinglePagesFlag= deleteSinglePagesFlag;
+            downloadArguments.ReleasesFile = "C:\\daily_observer\\releases.txt";
+            downloadArguments.DownloadPath = "C:\\daily_observer\\PDFs";
+            downloadArguments.DeleteSinglePagesFlag = true;
+            for (int i= 0; i < args.Length; i += 2)
+            {
+                string parameter = args[i];
+                switch (parameter)
+                {
+                    case "-releasesFile":
+                        downloadArguments.ReleasesFile = args[i + 1];
+                        break;
+                    case "-downloadPath":
+                        downloadArguments.DownloadPath = args[i + 1];
+                        break;
+                    case "-deleteSinglePagesFlag":
+                        bool flag = InterpretFlag(args[i + 1]);
+                        downloadArguments.DeleteSinglePagesFlag = flag;
+                        break;
+                    default:
+                        throw new Exception("Given parameter not found.");
+
+                }
+            }
 
             return downloadArguments;
         }

@@ -8,10 +8,10 @@ namespace DailyObserverDownloader.DataClasses
 {
     public struct DownloadArguments
     {
-        public string releasesFile { get; set; }
+        public string ReleasesFile { get; set; }
 
-        public string downloadPath { get; set; }
+        public string DownloadPath { get; set; }
 
-        public bool deleteSinglePagesFlag { get; set; }
+        public bool DeleteSinglePagesFlag { get; set; }
     }
 }
