@@ -10,10 +10,8 @@ namespace PDF_Downloader
     {
         static void Main(string[] args)
         {
-            string releases = "C:\\daily_observer\\releases.txt";
-            string downloadPath = "C:\\daily_observer\\PDFs";
             Controller c = new Controller();
-            c.DownloadAllMagazines(releases, downloadPath);
+            c.DownloadAllMagazines(args);
         }
     }
 }

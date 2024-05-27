@@ -10,8 +10,10 @@ namespace PDF_Downloader
     public class Controller
     {
 
-        public void DownloadAllMagazines(string releasesFile, string downloadPath)
+        public void DownloadAllMagazines(string[] args)
         {
+            (string releasesFile, string downloadPath) = ArgumentChecker.CheckArguments(args);
+
             var releases = ReleaseGetter.GetReleases(releasesFile);
             using DownloadGetter downloadGetter = new DownloadGetter();
             foreach (var release in releases)
