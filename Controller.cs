@@ -23,9 +23,16 @@ namespace DailyObserverDownloader
                 var downloads = downloadGetter.GetDownloads(releaseLink);
                 string folder = FolderCalculator.CalculateFolder(arguments.downloadPath, release);
                 Directory.CreateDirectory(folder);
+                List<Thread> downloadThreads = new List<Thread>();
                 foreach (var download in downloads)
                 {
-                    PdfDownloader.DownloadPdf(download.DownloadUrl, folder, download.FileName);
+                    Thread thread = new Thread(() => PdfDownloader.DownloadPdf(download.DownloadUrl, folder, download.FileName));
+                    thread.Start();
+                    downloadThreads.Add(thread);
+                }
+                foreach(Thread thread in downloadThreads)
+                {
+                    thread.Join();
                 }
                 PageMerger.MergeRelease(folder);
                 if (arguments.deleteSinglePagesFlag)
