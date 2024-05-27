@@ -4,9 +4,9 @@ using OpenQA.Selenium;
 
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Support.UI;
-using PDF_Downloader.DataClasses;
+using DailyObserverDownloader.DataClasses;
 
-namespace PDF_Downloader
+namespace DailyObserverDownloader
 {
     public class Controller
     {

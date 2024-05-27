@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
 	<TargetFramework>net6.0-windows</TargetFramework>
 	<UseWindowsForms>true</UseWindowsForms>
-    <RootNamespace>PDF_Downloader</RootNamespace>
+    <RootNamespace>DailyObserverDownloader</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

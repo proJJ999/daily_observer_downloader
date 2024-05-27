@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using DailyObserverDownloader.DataClasses;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Support.UI;
 using System;
@@ -7,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PDF_Downloader
+namespace DailyObserverDownloader
 {
     public class DownloadGetter : IDisposable
     {
@@ -21,8 +22,6 @@ namespace PDF_Downloader
         {
             driver.Url = magazinUrl;
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
-            //wait.IgnoreExceptionTypes(typeof(OpenQA.Selenium.NoSuchElementException));
-            //wait.Until(d => d.FindElement(By.ClassName("pagetocnodecontainer")).Displayed);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
             var pages = driver.FindElements(By.ClassName("pagetocnodecontainer"));
             string id = pages[0].GetAttribute("id").Substring(4,12);
@@ -47,7 +46,6 @@ namespace PDF_Downloader
                 download.DownloadUrl = sb.ToString();
 
                 sb.Clear();
-                sb.Append("lodo");
                 sb.Append(id);
                 sb.Append("-01.1.");
                 sb.Append(counter.ToString("D2"));
