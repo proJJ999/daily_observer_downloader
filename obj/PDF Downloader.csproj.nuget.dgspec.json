@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JJ\\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\\Desktop\\Temp - Notes\\pdf_download\\PDF Downloader\\PDF Downloader.csproj": {}
+    "C:\\daily_observer\\daily_observer_downloader\\PDF Downloader.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JJ\\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\\Desktop\\Temp - Notes\\pdf_download\\PDF Downloader\\PDF Downloader.csproj": {
+    "C:\\daily_observer\\daily_observer_downloader\\PDF Downloader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JJ\\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\\Desktop\\Temp - Notes\\pdf_download\\PDF Downloader\\PDF Downloader.csproj",
+        "projectUniqueName": "C:\\daily_observer\\daily_observer_downloader\\PDF Downloader.csproj",
         "projectName": "PDF Downloader",
-        "projectPath": "C:\\Users\\JJ\\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\\Desktop\\Temp - Notes\\pdf_download\\PDF Downloader\\PDF Downloader.csproj",
+        "projectPath": "C:\\daily_observer\\daily_observer_downloader\\PDF Downloader.csproj",
         "packagesPath": "C:\\Users\\JJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JJ\\OneDrive - Technische Hochschule Nürnberg Georg Simon Ohm\\Desktop\\Temp - Notes\\pdf_download\\PDF Downloader\\obj\\",
+        "outputPath": "C:\\daily_observer\\daily_observer_downloader\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Users\\JJ\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
@@ -47,10 +47,6 @@
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.21.0, )"
-            },
-            "Spire.PDF": {
-              "target": "Package",
-              "version": "[10.5.5, )"
             },
             "iTextSharp": {
               "target": "Package",
