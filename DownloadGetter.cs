@@ -21,8 +21,24 @@ namespace DailyObserverDownloader
         public IEnumerable<Download> GetDownloads(string magazinUrl)
         {
             driver.Url = magazinUrl;
-            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
+
+            TimeSpan timeout = TimeSpan.FromSeconds(20);
+            DateTime start = DateTime.Now;
+            while(DateTime.Now - start < timeout)
+            {
+                try
+                {
+                    if (driver.FindElement(By.ClassName("pagetocnodecontainer")).Displayed)
+                    {
+                        break;
+                    }
+                }
+                catch (NoSuchElementException ex)
+                {
+                    Thread.Sleep(500);
+                }
+            }
+
             var pages = driver.FindElements(By.ClassName("pagetocnodecontainer"));
             string id = pages[0].GetAttribute("id").Substring(4,12);
             return CreateDownloads(id, pages);
